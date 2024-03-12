@@ -1,0 +1,104 @@
+:root {
+    --BodyColor-background-color: rgba(182, 182, 182, 0.586);
+    --colorDeEtiqueta-a: rgb(255, 255, 255);
+    --box-shadow: 0 10px 20px rgb(26, 27, 32);
+    --colorDeLaEtiquta-a: rgba(60, 37, 234, 0.993);
+    --sonbra: 0 10px 10px rgb(26, 27, 32);
+
+}
+
+/* login */
+
+body{
+    color: var(--Body-background-color);
+}
+
+    a {
+         color: var(--colorDeEtiqueta-a);
+         text-decoration: none;
+         color: var(--colorDeLaEtiquta-a);
+        }
+        .categoria {
+            box-shadow: var(--box-shadow);
+        }
+        .malca {
+            position: relative;
+            left: 35%;
+            top: 25px;
+            font-size: 50px;
+        
+            h1{
+                position: absolute;
+                left: 100px;
+                top: -30px;
+            }
+            h2 {
+                position: absolute;
+                left: -90px;
+                top: -20px;
+            }
+        
+        }    
+        .etiqueta:hover {
+            box-shadow: var(--box-shadow);
+            transition: all 0.2s ease;
+        }
+        .BodyDeLogin{
+            position: absolute;
+            fieldset {
+                width:180px ;
+                height:200px ;
+                text-align: center;
+            }
+
+        }
+
+        @media screen and (max-width: 1024px){
+
+            .LoginFieldset {
+                position: relative;
+                width: 300PX;
+                text-align: center;
+                top: 200px;
+                left: -900%;
+                box-shadow:var(--box-shsadow);
+                padding-left: -11px;
+                margin: -20px;
+            }
+        
+            .malca{
+                position: relative;
+                left: 35%;
+                top:50px;
+                font-size: 50px;
+            
+                h2 {
+                    position: absolute;
+                    left: -100px;
+                    top: -60px;
+                }
+                h1{
+                    position: absolute;
+                    left: 90px;
+                    top: -70px;
+                }
+            }
+        
+        }
+
+
+/* Resdister */
+
+    .LoginFieldset {
+        position: relative;
+        width: 300PX;
+        text-align: center;
+        top: 200px;
+        left: 32%;
+        box-shadow: var(--sonbra);
+    }
+    .LoginFieldset:hover{
+        box-shadow: var(--box-shadow);
+        transition: all 0.2s ease;
+
+    }
